@@ -1,0 +1,489 @@
+body{
+    background-color:#E5E9EC;
+}
+
+.navbar-brand img{
+    width: 80px;
+    height: 60px;
+}
+
+.navbar{
+    background-color: gold;
+}
+
+.navbar-brand span{
+    font-size: 24px;
+}
+
+.navbar-link__a{
+    color: #FFFFFF;
+    display: flex;
+    padding: 0 5px;
+    position: relative;
+}
+.navbar-link__a::after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black ;
+    transform: scaleX(0);
+    transition: 0.3s;
+    bottom: -10px;
+}
+
+.navbar-link__a:hover::after{
+    transform: scaleX(1);
+}
+
+.glow-on-hover {
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    background: none;
+    border: 2px solid black;
+}
+
+.glow-on-hover2 {
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    background: none;
+    border: 2px solid black;
+}
+.header{
+    margin-top: 130px;
+
+}
+.box-header{
+    background-color:#d6dade ;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.box-header h1{
+    margin-top: 50px;
+}
+.box-header2{
+    background-color:#d6dade;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box-header2 h1{
+    margin-top: 50px;
+}
+.Ismingiz-input{
+    width: 100%;
+    min-height: 50px;
+    border-radius: 10px;
+    border: 2px solid;
+    padding-left: 20px;
+    background: transparent;
+    outline: 0;
+}
+.Ismingiz-input::placeholder{
+    color: black;
+
+}
+
+.form-group {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 6px;
+    width: 300px;
+    background: none;
+  }
+  .form-group:focus {
+    color: #212529;
+      background-color: none;
+      border-color: #86b7fe;
+      outline: 0;
+      box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  }
+  .form-group input {
+    display: inline-block;
+    width: auto;
+    border: none;
+  }
+  .form-group input:focus {
+    box-shadow: none;
+  }
+  .tel-number{
+    background: none;
+    color:black;
+  }
+  .btn-click{
+    border-radius: 10px;
+    min-height: 20px;
+    background-color: transparent;
+    border: 3px solid white;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    /* outline: 0; */
+    padding: 10px;
+    
+  }
+.Ifraganus{
+    margin-top: 70px;
+}
+
+.icon-build{
+    font-size: 36px; 
+    margin-top: 30px;
+}
+.build{
+    margin-top: 70px;
+    max-width: 400px;
+    background-color:#d6dade  ;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 20px;
+    
+}
+.build h1{
+    font-size: 36px;
+}
+ .fire{
+    margin-top: 70px;
+    max-width: 400px;
+    background-color:#d6dade  ;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 20px;
+} 
+ .fire h1{
+    font-size: 36px;
+ }
+ .icon-fire{
+    font-size: 36px; 
+    margin-top: 30px;
+ }
+.group-icon{
+    font-size: 36px; 
+    margin-top: 30px;   
+}
+.group{
+    margin-top: 70px;
+    max-width: 400px;
+    background-color:#d6dade ;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 20px;
+  
+}
+
+
+.result{
+    margin-top: 60px;   
+}
+.talaba{
+    background-color:#d6dade ;
+    min-height: 350px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 70px;   
+background-image: url(./imgs/studentCap.png);
+background-repeat: no-repeat;
+border: 10px solid #E5E9EC;
+}
+.talaba h1{
+    margin-top: 50px;
+}
+.ishgajoylashish{
+    background-color:#d6dade ;
+    min-height: 350px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 70px;   
+background-image: url(./imgs/studentPortfel.png);
+background-repeat: no-repeat;
+border: 10px solid #E5E9EC;
+}
+.ishgajoylashish h1{
+    margin-top: 50px;
+}
+
+.oylik{
+    background-color:#d6dade ;
+    min-height: 350px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 70px; 
+    border: 10px solid #E5E9EC;   
+
+}
+.oylik h4{
+    margin-top: 50px;
+}
+
+.write h1{
+
+    margin-top: 70px; 
+}
+.free{
+    background-color:#d6dade ;
+    margin-top: 80px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 10px solid #E5E9EC;   
+   
+}
+.free h3{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 26px;
+}
+.free p{
+    padding-left: 30px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.study h3{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 26px;
+}
+ .study{
+    background-color:#d6dade ;
+    margin-top: 80px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 10px solid #E5E9EC;   
+ }
+ .study p{
+    padding-left: 30px;
+    font-size: 20px;
+    padding-bottom: 50px;
+ }
+.chellange h3{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 26px;
+}
+.chellange p{
+    padding-left: 30px;
+    font-size: 20px;
+    padding-bottom: 50px; 
+}
+    .chellange{
+        background-color:#d6dade ;
+        margin-top: 80px;
+        border-radius: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: 10px solid #E5E9EC; 
+    }
+
+.sertifikat{
+         background-color:#d6dade ;
+        margin-top: 80px;
+        border-radius: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: 10px solid #E5E9EC;   
+}
+.sertifikat h3{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 26px;
+}
+.sertifikat p{
+    padding-left: 30px;
+    font-size: 20px;
+    padding-bottom: 50px; 
+}
+.ishgataklif{
+    background-color:#d6dade ;
+    margin-top: 80px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 10px solid #E5E9EC;   
+}
+.ishgataklif h3{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 26px;
+}
+.ishgataklif p{
+    padding-left: 30px;
+    font-size: 20px;
+    padding-bottom: 50px; 
+}
+ .lesson{
+    background-color:#d6dade ;
+    margin-top: 80px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 10px solid #E5E9EC;    
+ }
+
+.lesson h3{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 26px;  
+}
+.lesson p{
+    padding-left: 30px;
+    font-size: 20px;
+    padding-bottom: 50px;    
+}
+
+.studying h1{
+    margin-top: 70px;
+    font-size: 44px;
+}
+
+.person{
+    background-color:#d6dade ;
+    margin-top: 80px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 10px solid #E5E9EC;    
+    padding-bottom: 20px;
+}
+.person p{
+    padding-left: 10px;
+    font-size: 16px;
+    padding-top: 30px; 
+}
+.line66{
+    border: 1px solid rgb(153, 142, 142)  ; 
+
+}
+.icon{
+    font-size: 48px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.education{
+    font-size: 48px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.winner{
+    font-size: 48px;
+    padding-top: 40px;
+    padding-left: 30px; 
+}
+.cersifikat{
+    font-size: 48px;
+    padding-top: 40px;
+    color:rgb(141, 26, 223);
+    padding-left: 30px; 
+}
+.brain{
+    font-size: 48px;
+    padding-top: 40px;
+    padding-left: 30px; 
+    color:rgb(179, 58, 14);
+}
+.work{
+    font-size: 48px;
+    padding-top: 40px;
+    padding-left: 30px; 
+    color: rgb(203, 162, 13);
+}
+.member{
+    font-size: 56px;
+    padding-top: 20px;
+}
+.person1 h6{
+    padding-top: 32px;
+    margin-left: 10px;
+}
+.kurs{
+    margin-top: 80px;
+    font-size: 56px;
+
+}
+.kurs1{
+    background-color:#d6dade ;
+    min-height: 350px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 70px;   
+    background-image: url(./imgs/);
+    background-repeat: no-repeat;
+    border: 10px solid #E5E9EC;
+}
+
+.kurs2{
+    background-color:#d6dade ;
+    /* min-height: 300px; */
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 70px;   
+    background-image: url(./imgs/back\ end.webp);
+    background-repeat: no-repeat;
+    border: 10px solid #E5E9EC;
+}
+.kurs1{
+    background-color:#d6dade ;
+    min-height: 350px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 70px;   
+    background-image: url(./imgs/full\ stake.jpg);
+    background-repeat: no-repeat;
+    border: 10px solid #E5E9EC;
+}
+
+
+
+
+
+  @media (max-width: 992px) {
+    .box-header2 {
+        margin-left: 0;
+    }
+  }
+  @media (max-width: 768px){
+    .navbar-links{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+  }
